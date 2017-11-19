@@ -17,7 +17,6 @@ def main():
     # start a for loop that will read each line
     # one-by-one, into a variable named line.
     for line in range(6):
-##        for line in pmytests:
             
         name = mytests.readline()
         name = name.rstrip('\n')
